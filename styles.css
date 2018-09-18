@@ -1,0 +1,28 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: red;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.headImg {
+    height: 10em;
+}
+
+.gameScreen {
+    width: 45em;
+    height: 35em;
+    border-radius: .5em;
+    border: 3px solid whitesmoke;
+    background-color: darkblue;
+}
